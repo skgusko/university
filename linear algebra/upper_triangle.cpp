@@ -1,3 +1,5 @@
+//Reduced Row Echelon Form
+
 #include <iostream>
 using namespace std;
 class Matrix
@@ -6,7 +8,7 @@ private:
 public:
 	double** arr;
 	int N;
-	void get_input() //matrixÀÇ °¢ ¿ä¼Ò ÀÔ·Â
+	void get_input() //matrixì˜ ê° ìš”ì†Œ ì…ë ¥
 	{
 		cout << "============ Making N x N matrix ============" << endl;
 		cout << "Please enter the number of N : ";
@@ -26,7 +28,7 @@ public:
 		}
 	} 
 
-	void op3(int one, double mul, int add, int result) //operation Àû¿ë
+	void op3(int one, double mul, int add, int result) //operation ì ìš©
 	{
 		for (int i = 1; i <= this->N; i++)
 		{
@@ -34,7 +36,7 @@ public:
 		}
 	}
 
-	void upper_triangle() //upper triangle ¸¸µé±â
+	void upper_triangle() //upper triangle ë§Œë“¤ê¸°
 	{
 		for (int i = 1; i <= this->N; i++)
 		{
@@ -60,7 +62,7 @@ public:
 		}
 	}
 
-	void print() //matrix Ãâ·Â
+	void print() //matrix ì¶œë ¥
 	{
 		for (int i = 1; i <= this->N; i++) 
 		{
