@@ -5,7 +5,7 @@ public class WordCount {
     public static TreeMap<String, Integer> wordCnt = new TreeMap<>();
 
     public static void main(String[] args) {
-        System.out.println("고나현/행정학과/12202914");
+        System.out.println("Word Count");
 
         // input, output 파일명 입력받기
         Scanner sc = new Scanner(System.in);
