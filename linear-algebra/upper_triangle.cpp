@@ -1,4 +1,4 @@
-//Reduced Row Echelon Form
+//Making Reduced Row Echelon Form
 
 #include <iostream>
 using namespace std;
